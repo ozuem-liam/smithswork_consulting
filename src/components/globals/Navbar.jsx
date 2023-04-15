@@ -55,7 +55,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div
-        className={`absolute top-0 left-0 p-8 bg-gray-900 h-screen w-64 transition-transform ease-out duration-300 transform ${
+        className={`absolute z-50 top-0 left-0 p-8 bg-gray-900 h-screen w-64 transition-transform ease-out duration-300 transform ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >

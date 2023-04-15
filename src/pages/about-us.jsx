@@ -33,18 +33,20 @@ export default function Index() {
         <div className="p-2">
 
         <CustomCard
-          // image="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+          image="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
           title="Our Vision"
           description="We envision being the hallmark of support for small businesses in the great state of Pennsylvania and across the United State."
-          shadowStyle={true}
+          shadowStyle={false}
+          rounded={true}
         />
         <CustomCard
-          // image="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+          image="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
           title="Our Mission"
           description="We shall support small businesses through our affordable project support practice, our US-Africa trade activities, and our events with the goal of unleashing the potentials of small businesses."
-          shadowStyle={true}
+          shadowStyle={false}
+          reverse={true}
         />
-        <div className="p-4 shadow-md rounded">
+        <div className="p-4 rounded">
           <h2 className="text-2xl font-bold mb-2">Our Core Values</h2>
           <ul>
             <li className="ml-2 mb-2">Integrity</li>

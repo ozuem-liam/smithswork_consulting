@@ -19,19 +19,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <PageLayout>
+        <CustomPageIntro
+          image="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+          title="OUR PARTNERS | VALOR INSURANCE GROUP"
+          descriptions={[
+            "Valor is an independent Insurance Brokerage, laser focused on protecting the customers interests and enhancing their insurance purchasing experience. Valor provides the utmost value to clients through customized and personalized protection strategies. Valor’s  goal is to provide clients with the best coverage, pricing, and customer support in the marketplace through its robust compliment of national and regional powerhouse insurance companies.",
+            "Valor is headquartered in Easton, Pennsylvania, USA.",
+          ]}
+        />
         <CustomCard
           image="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
           title="title"
           description="my description"
           shadowStyle={false}
-        />
-        <CustomPageIntro
-          image="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
-          title="OUR PARTNERS| VALOR INSURANCE GROUP"
-          descriptions={[
-            "Valor is an independent Insurance Brokerage, laser focused on protecting the customers interests and enhancing their insurance purchasing experience. Valor provides the utmost value to clients through customized and personalized protection strategies. Valor’s  goal is to provide clients with the best coverage, pricing, and customer support in the marketplace through its robust compliment of national and regional powerhouse insurance companies.",
-            "Valor is headquartered in Easton, Pennsylvania, USA.",
-          ]}
         />
       </PageLayout>
     </>
